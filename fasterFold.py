@@ -10,7 +10,7 @@ import pickle
 
 if __name__ == '__main__':
 
-    file = open(".creds","r")
+    # file = open(".creds","r")
     creds=file.read().splitlines()
 
     chrome_options = Options()
